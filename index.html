@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <h1 id="header">
+      
+
+      <nav id="nav-bar" >
+        <input href="#header" class = "nav-link" type="button" onclick="checkName()" value="Check A" />
+        <input href="#header" class = "nav-link" type="button" onclick="checkName()" value="Check B" />
+        <input href="#header" class = "nav-link" type="button" onclick="checkName()" value="Check C" />
+      </nav>
+
+      <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" id="header-img">
+
+      <video src="https://www.youtube.com/watch?v=qz0aGYrrlhU" id="video"></video>
+    </h1>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+
+
   </head>
 
   <body>
-    <h1 id="header">
-        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" id="header-img">
-
-        <nav id="nav-bar" >
-          <input href="#header" class = "nav-link" type="button" onclick="checkName()" value="Check A" />
-          <input href="#header" class = "nav-link" type="button" onclick="checkName()" value="Check B" />
-          <input href="#header" class = "nav-link" type="button" onclick="checkName()" value="Check C" />
-        </nav>
-
-        <video src="https://www.youtube.com/watch?v=qz0aGYrrlhU" id="video"></video>
-      </h1>
-      <form id="form">
+   
+      
+      <form action="https://www.freecodecamp.org/email-submit" id ="form">
         <label for="text">Please fill your email</label>
 
-        <input type="email" id ="email" placeholder="write something">
-        <input type="submit" value="submit" id ="submit" onclick="https://www.freecodecamp.com/email-submit">
+        <input name="email" type="email" id ="email" placeholder="write something">
+        <input type="submit" value="submit" id ="submit">
       </form>
 
       <br><br>

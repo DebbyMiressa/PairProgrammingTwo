@@ -3,4 +3,8 @@
     text-align: left;
     top: 0;
     width:100;
+    display:flex;
+}
+.nav-link{
+  display:flex;
 }
